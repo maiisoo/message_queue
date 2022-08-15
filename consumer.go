@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	//Get RabbitMQ server from file
+	//Get RabbitMQ server
 	content, err := ioutil.ReadFile("./mq_server.txt")
 	if err != nil {
 		log.Fatal(err)
